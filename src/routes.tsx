@@ -38,6 +38,7 @@ export const routes: any = [
     {
         path: "/",
         element: <MainLayout />,
+        // children for oulet
         children: [
             {
                 path: "home",

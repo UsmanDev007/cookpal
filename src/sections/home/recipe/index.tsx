@@ -36,7 +36,7 @@ const Recipe = () => {
 
         fetchRecipes();
     }, []);
-
+    //   to click the recipe and go to further details functions
     const handleDetailRecipe = (recipe: RecipeCardProps) => {
         navigate(`/home/recipe-details/${recipe.id}`, { state: { recipe } });
     };
